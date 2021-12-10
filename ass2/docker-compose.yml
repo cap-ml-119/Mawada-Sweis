@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  ass2:
+    image: ass2
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5000:5000
